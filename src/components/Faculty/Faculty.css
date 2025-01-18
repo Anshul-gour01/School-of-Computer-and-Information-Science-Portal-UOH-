@@ -1,0 +1,45 @@
+.course1-col {
+    flex-basis: 31%;
+    background: #d7e6f5;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding: 10px 10px;
+    margin:2px;
+  } 
+  .course1 {
+    width: 80%; 
+    margin: auto;
+    text-align:left;
+    padding-top: 10px;
+ }
+h3{
+    text-align:left;
+    color:#2b2727   
+  }
+  .course1 h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .course1 p {
+    color: #2b2727;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 0px;
+  }
+  .link-class {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    background-color: #454a4f; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 5px 12px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  .link-class:hover {
+    background-color: #182024; /* Darker green on hover */
+  }
+  

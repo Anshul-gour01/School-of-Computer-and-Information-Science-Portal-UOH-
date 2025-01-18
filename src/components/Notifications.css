@@ -1,0 +1,167 @@
+/* 
+.notifications-container {
+    align-items: center;
+    max-width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+   
+    overflow-y: auto;
+    max-height: 400px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .notifications-container h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4b6cb7;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notifications-container h1::before {
+    content: '\f0f3'; 
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #4b6cb7;
+    margin-right: 10px;
+  }
+  
+  
+  .notifications-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .notifications-container ul li {
+    font-size: 1rem;
+    color: #333;
+    padding: 8px 0;
+    border-bottom: 1px dashed #fff;
+    display: flex;
+    align-items: center;
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  .notifications-container ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .notifications-container ul li::before {
+    content: '\f111';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: #1f9848; 
+    margin-right: 10px;
+  }
+  
+ 
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+   */
+   /* General body styling for layout */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #eef2f3, #fff); /* Background gradient */
+}
+
+/* Main container to wrap both sections */
+.main-container {
+  width: 90%; /* Adjust width of the main container */
+  max-width: 1200px; /* Limit the maximum width */
+  margin: 20px auto; /* Center the container */
+  overflow: hidden; /* Clear floats */
+}
+
+/* Image container styling */
+.image-container {
+  float: left; /* Align to the left */
+  width: 55%; /* Occupy 55% of the width */
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px; /* Add space between image and notifications */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Notifications container styling */
+.notifications-container {
+  float: right; /* Align to the right */
+  width: 40%; /* Occupy 40% of the width */
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 400px; /* Limit the height for scrolling */
+  overflow-y: auto; /* Add vertical scroll if content exceeds max-height */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+
+/* Title styling for notifications */
+.notifications-container h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #4b6cb7;
+
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #ddd;
+}
+
+/* Notifications list styling */
+.notifications-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notifications-container ul li {
+  font-size: 1rem;
+  color: #333;
+  padding: 8px 0;
+  border-bottom: 1px dashed #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.notifications-container ul li:last-child {
+  border-bottom: none;
+}
+
+/* Clearfix to ensure proper layout */
+.main-container::after {
+  content: '';
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,66 @@
+.my-custom-class .accordion-header {
+  background-color: #e8f5ff;
+
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.my-custom-class .accordion-header:hover {
+  background-color: #aed0f5;
+  cursor: pointer;
+}
+
+.my-custom-class .accordion-button {
+  background: none;
+  color: #004f9f;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  padding: 15px;
+}
+
+.my-custom-class .accordion-button:focus {
+  box-shadow: none;
+}
+
+.my-custom-class .accordion-button:not(.collapsed) {
+  background-color: #aed0f5; /* Darker when active */
+}
+
+.my-custom-class .accordion-button::after {
+  color: #fff;
+}
+
+/* Accordion Body Styles */
+.my-custom-class .accordion-body {
+  background-color: #fff; /* Light background for body */
+  color: #333;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Custom Transitions for Smooth Opening */
+.my-custom-class .accordion-collapse {
+  transition: max-height 0.5s ease, padding 0.5s ease;
+}
+.arrow_box {
+  margin-top: 15px;
+  position: relative;
+  background: #aed0f5;
+  border: 4px solid #aed0f5;
+  border-radius: 5px;
+  padding-left: 10px;
+  left: 0px;
+  color: #333;
+  width: 250px;
+  font: normal 140% "SansationRegular", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

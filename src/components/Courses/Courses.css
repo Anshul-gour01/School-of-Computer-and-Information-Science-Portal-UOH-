@@ -1,0 +1,85 @@
+  Course Section Styles
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h3{
+  color:#2b2727
+}
+.course h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.course p {
+  text-align: center;
+  color: #2b2727;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 10px;
+}
+
+.row {
+  /* margin-top: 5%;
+  display: flex;
+  justify-content: space-between; */
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap; /* Ensures proper wrapping */
+  gap: 20px; /* Adds spacing between items */
+  justify-content: space-evenly; 
+}
+
+.course-col {
+  /* flex-basis: 31%;
+  background: #c0d9f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px; */
+  flex: 1 1 calc(10% - 20px); /* Ensures 2 columns */
+  max-width: calc(10% - 20px); /* Prevents items from exceeding row width */
+  background: #c0d9f3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 12px;
+  box-sizing: border-box; /* Includes padding in width calculations */
+}
+
+.course-col h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.button1 {
+  background-color: #2b4b7e; 
+  border: none; 
+  color: white; 
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer;
+  border-radius: 10px; 
+  transition: background-color 0.3s ease; 
+}
+
+.button1:hover {
+  background-color: #afa8d3; /* Darker green on hover */}
+  
