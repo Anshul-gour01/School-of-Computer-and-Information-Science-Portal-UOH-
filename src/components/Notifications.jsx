@@ -53,7 +53,7 @@ const Notifications = () => {
       </div>
       <div className="image_container">
         <img
-          src="public/dean.jpg"
+          src="public/images/user1.jpg"
           alt="Description of Image"
           width="700"
           height="400"
