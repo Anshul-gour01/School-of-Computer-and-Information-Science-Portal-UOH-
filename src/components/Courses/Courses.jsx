@@ -3,6 +3,7 @@
 // const Courses = () => {
 //   return (
 //     <section className="course">
+      
 //       <h1>Courses We Offer</h1>
 //       <p>
 //         Explore our diverse range of courses designed to enhance your learning
@@ -62,6 +63,7 @@ import { Link } from "react-router-dom";
 const Courses = () => {
   return (
     <section className="course">
+      <br/>
       <h1>Courses We Offer</h1>
       <p>
         Explore our diverse range of courses designed to enhance your learning
