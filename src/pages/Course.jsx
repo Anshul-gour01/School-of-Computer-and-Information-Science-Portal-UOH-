@@ -7,6 +7,7 @@ const Course = () => {
   return (
     <>
       <Subheader header="Our Courses" />
+      <br/>
       <Courses />
       <Facilities />
       <Footer />
