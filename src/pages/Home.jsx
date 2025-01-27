@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Notifications/>
+{/*       <Notifications/> */}
       <Courses />
       <Facilities />
       <Cta />
